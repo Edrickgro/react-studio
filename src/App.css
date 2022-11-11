@@ -2,8 +2,27 @@
 
 .App {
 
+    display:flex;
+    flex: wrap;
+    flex-direction: column;
+    background-color: antiquewhite;
+    
+
 }
 
 .BakeryItem {
-  
+  background-color: whitesmoke;
+  width: 40%;
+  margin: 10px;
+}
+
+.BakeryItem img{
+    width: 20%;
+    
+}
+
+#cart{
+    background-color: rgb(246, 224, 246);
+    width: 40%;
+    margin-left: 0.5%;
 }
